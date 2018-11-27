@@ -25,7 +25,7 @@ function draw() {
     text("Feed me", 570, 430, 500, 500);
     for (i = 0; i < arr.length; i+=2) {
         image(imgBurger, arr[i], arr[i+1]);
-    }
+    } 
     image(imgBurger, mouseX, mouseY);
 }
 
